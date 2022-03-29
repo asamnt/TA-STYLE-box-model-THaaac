@@ -13,3 +13,74 @@
 - Using CSS resets is necessary.
 - Use semantic tags and keep the nesting and indentation proper.
 --->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Box Model Assignment 3</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <main>
+            <section>
+                <h1 class="h1">The Box Model, Box-sizing and Box-shadow</h1>
+                <div style="width: 500px; margin: 0 auto"><hr class="hr"></div>
+                <h2 class="h2">Exercise 1</h2>
+                <div class="box"></div>
+                <div>
+                    <div class="box dashed"></div>
+                    <div class="box dotted"></div>
+                </div>
+            </section>
+            <section>
+                <div class="outer_outer_div">
+                    <div class="outerdiv">
+                        <div class="div"></div>
+                    </div>
+                </div>
+                <br>
+                <div class="legend_div">
+                    <div id="green-circle" ></div>
+                    <div class="legend">Content</div>
+                    <div id="blue-circle" ></div>
+                    <div class="legend">Padding</div>
+                    <div id="black-circle" ></div>
+                    <div class="legend">Border</div>
+                    <div id="red-circle" ></div>
+                    <div class="legend">Margin</div>
+                </div>
+             </section>
+             <div style="width: 500px; margin: 0 auto"><hr class="hr"></div>
+             <br>
+             <h2 class="h2">Exercise 2</h2>
+             <p>no border on these boxes</p>
+             <div class="sample_1_div">
+                <div class="gray-box"></div>
+                <div class="gray-box"></div>
+                <div class="gray-box"></div>
+            </div>
+            <br>
+            <div style="width: 500px; margin: 0 auto"><hr class="hr"></div>
+             
+            <p>1px on these boxes</p>
+            <br>
+            <div class="sample_1_div">
+                <div class="gray-box-with-border"></div>
+                <div class="gray-box-with-border"></div><br>
+                <div class="gray-box-with-border" ></div>
+            </div>
+            <br>
+            <div style="width: 500px; margin: 0 auto"><hr class="hr"></div>
+            
+            <br>
+            <p>1px on these boxes but they are on the same line</p>
+            <br>
+            <div class="sample_1_div">
+                <div class="gray-box-with-border"></div>
+                <div class="gray-box-with-border"></div>
+                <div class="gray-box-with-border" style="margin: left 40px;"></div>
+            </div>
+        </main>
+        
+
+    </body>
+</html>
